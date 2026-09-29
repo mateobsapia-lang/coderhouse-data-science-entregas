@@ -1,0 +1,4 @@
+regla,entrada,salida,excluidas
+1. Conteos y tiempos válidos,12330,12330,0
+2. Tasas entre cero y uno,12330,12330,0
+3. Al menos una página de producto,12330,12292,38
