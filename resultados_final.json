@@ -1,0 +1,64 @@
+{
+  "fecha": "2026-09-30",
+  "original": 12330,
+  "saneado": 12292,
+  "deduplicado": 12167,
+  "repeticiones_retiradas": 125,
+  "compras_saneado": 1902,
+  "compras_deduplicado": 1902,
+  "train": 9733,
+  "test": 2434,
+  "compras_test": 381,
+  "ap_cv": {
+    "Regresión logística": 0.3223726023406199,
+    "Random Forest": 0.3768704349057539
+  },
+  "rf_parametros": {
+    "modelo__max_depth": null,
+    "modelo__min_samples_leaf": 8
+  },
+  "elegido": "Random Forest",
+  "metricas": [
+    {
+      "Modelo": "Regresión logística",
+      "Accuracy": 0.6495480690221856,
+      "Precision": 0.270873786407767,
+      "Recall": 0.7322834645669292,
+      "F1": 0.39546420978029767,
+      "ROC_AUC": 0.7419511552775339,
+      "AP": 0.3136498386355411
+    },
+    {
+      "Modelo": "Random Forest",
+      "Accuracy": 0.7670501232539031,
+      "Precision": 0.3480392156862745,
+      "Recall": 0.5590551181102362,
+      "F1": 0.42900302114803623,
+      "ROC_AUC": 0.7782797851681106,
+      "AP": 0.3781781813600778
+    }
+  ],
+  "matrices": {
+    "Regresión logística": [
+      [
+        1302,
+        751
+      ],
+      [
+        102,
+        279
+      ]
+    ],
+    "Random Forest": [
+      [
+        1654,
+        399
+      ],
+      [
+        168,
+        213
+      ]
+    ]
+  },
+  "grupos_train_test_disjuntos": true
+}

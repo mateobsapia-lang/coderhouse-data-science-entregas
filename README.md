@@ -1,5 +1,9 @@
 # Data Science 1 - Mateo Sapia
 
+**Esta rama incluye la continuación completa. Ver [CONTINUACION.md](CONTINUACION.md) para las preentregas 4–9, el notebook final ejecutado, resultados y fechas.**
+
+Las secciones siguientes documentan las primeras tres entregas, preservadas del trabajo previo.
+
 Proyecto: clasificación retrospectiva de intención de compra en e-commerce.
 
 ## Entregas
